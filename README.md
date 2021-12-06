@@ -6,7 +6,10 @@ Even within the scope of crop production, there can be several outputs, but in t
 
 By studying and understanding these variations, we could precisely tweak each plant's inputs and increase the yield by moving those low-yielding plants to a higher yield.  
 
+In order to start an understanding of plant to plant variability, we have collected three datasets. First, we collected imagery at planting (Furrow Vision). Then the plant was tracked through aerial imagery (Sentera). Lastly, each plant was hand-harvested, and the yield was recorded.
+![puzzle](https://user-images.githubusercontent.com/86243647/144940532-b494e216-4bb9-4032-a97b-cecd5fde2593.PNG)
 
+I look at this dataset as three puzzle parts that help us build the big picture of what is causing plant variability 
 
 
 
