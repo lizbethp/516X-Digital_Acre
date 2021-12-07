@@ -1,3 +1,4 @@
+[Website URL] (https://lizbethp.github.io/516X-Digital_Acre/)
 ## Introduction 
 If we treat agriculture as a system, we can think about inputs and outputs. 
 ![System](https://user-images.githubusercontent.com/86243647/144939640-b4072840-6061-48b5-9755-18b5b321523e.PNG)
