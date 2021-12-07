@@ -26,6 +26,12 @@ For this project, I dedicated my time to creating a pipeline that will update ne
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86243647/144943104-c56ffc62-86b0-4206-b947-431fa0ca4146.PNG">
 </p>
+
+### FAIR Principles and Motivation
+I have performed that workflow using other tools such as Excel and Minitab, but I felt motivated to create a script because of several advantages. A simple one is that a scrip (if made correctly) keeps up with changes in data. This is really necessary for this project since data is still being generated. When analyzing the data in python, intermediate steps are saved and open the possibility of using these values for other analysis/ approaches. By saving this analysis and recording how they were produced, the approaches are being recorded, and if a different approach is chosen, the previous one will not be forgotten. Lastly, it facilitates the reproducibility of the analysis. This project will be repeated next year, and it is essential to generate the same data and analysis as this year. 
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lizbethp/516X-Digital_Acre/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
