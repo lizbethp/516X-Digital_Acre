@@ -11,6 +11,16 @@ In order to start an understanding of plant to plant variability, we have collec
 
 I look at this dataset as three puzzle parts that help us build the big picture of what is causing plant variability.  
 
+The table below show part of the data that each dataset countains.
+| Furrow Vision | Sentera| Yield
+| ----------- | ----------- | ----------- |
+| Residue Level | Emergence Day | Weight
+| Residue Occusion | Area of plant (Day 1 - Day 18) | Kernel Count
+| Trench Quality | Angle |
+| Seed Orientation | Leaf Count |
+| Effective Depth | Location |
+
+
 For this project, three different landscapes were selected. Each landscape represents a different topography and soil conditions. Then, each landscape has three replicas that contain 24 rows, representing 10 different planting treatments. 
 ![image](https://user-images.githubusercontent.com/86243647/144941013-21f55d68-0504-459d-b8d5-d394e251c98f.png)
 
@@ -21,7 +31,7 @@ Two main questions drive the analysis of the data. How is the performance of the
 
 There are three main challenges that I faced when analyzing the data. First, joining the data is a time-consuming process that has to be made every time I fix a mistake in the original data or more yield data was updated into the SQL database. Second, there is a lot of spatial variability that needs to be accounted for. Lastly, it is hard to view the effect of one factor at a time. 
 
-For this project, I dedicated my time to creating a pipeline that will update new data, normalize it and create visuals to guide further analysis. Below is a diagram that summarizes the steps of this pipeline. 
+For this project, I dedicated my time to creating a pipeline that will update new data, spatially normalize it and create visuals to guide further analysis. Below is a diagram that summarizes the steps of this pipeline. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86243647/144943104-c56ffc62-86b0-4206-b947-431fa0ca4146.PNG">
@@ -30,6 +40,14 @@ For this project, I dedicated my time to creating a pipeline that will update ne
 ### FAIR Principles and Motivation
 I have performed that workflow using other tools such as Excel and Minitab, but I felt motivated to create a script because of several advantages. A simple one is that a scrip (if made correctly) keeps up with changes in data. This is really necessary for this project since data is still being generated. When analyzing the data in python, intermediate steps are saved and open the possibility of using these values for other analysis/ approaches. By saving this analysis and recording how they were produced, the approaches are being recorded, and if a different approach is chosen, the previous one will not be forgotten. Lastly, it facilitates the reproducibility of the analysis. This project will be repeated next year, and it is essential to generate the same data and analysis as this year. 
 
+## Code Step by Step
+There are three scripts that work with one another. I developed the first script in ArcGIS Pro using spatial packages such as arcpy. This script does all the spatial joins.  Below is a diagram explaining the code and the code. The second script uses the output of the ArcGIS one and adds more data, and then normalizes it by plot and by row. The last one visualized the data. 
+### ArcGIS (Spatial Join) Script 
+https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/ArcGIS_Joins.py
+
+
+### Data Normalization
+https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/Normalized%20Data.ipynb
 
 
 ## Welcome to GitHub Pages
