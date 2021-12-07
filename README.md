@@ -19,6 +19,13 @@ For this project, three different landscapes were selected. Each landscape repre
 Two main questions drive the analysis of the data. How is the performance of the plant affected by planting treatment? What drives plant to plant variability even when all the inputs (genetics, environment, and machinery settings) remain the same? Although these seem straightforward questions, many data processes need to happen before the data can be used. First, the datasets need to be joined. Then before comparing treatments or conditions, the data has to be normalized to account for spatial variability. In order to approach this task, I created a workflow that indicates the steps needed to answer these questions. 
 [Workflow.pdf](https://github.com/lizbethp/516X-Digital_Acre/files/7664293/Workflow.pdf)
 
+There are three main challenges that I faced when analyzing the data. First, joining the data is a time-consuming process that has to be made every time I fix a mistake in the original data or more yield data was updated into the SQL database. Second, there is a lot of spatial variability that needs to be accounted for. Lastly, it is hard to view the effect of one factor at a time. 
+
+For this project, I dedicated my time to creating a pipeline that will update new data, normalize it and create visuals to guide further analysis. Below is a diagram that summarizes the steps of this pipeline. 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86243647/144943104-c56ffc62-86b0-4206-b947-431fa0ca4146.PNG">
+</p>
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lizbethp/516X-Digital_Acre/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
