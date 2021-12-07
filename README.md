@@ -9,9 +9,15 @@ By studying and understanding these variations, we could precisely tweak each pl
 In order to start an understanding of plant to plant variability, we have collected three datasets. First, we collected imagery at planting (Furrow Vision). Then the plant was tracked through aerial imagery (Sentera). Lastly, each plant was hand-harvested, and the yield was recorded.
 ![puzzle](https://user-images.githubusercontent.com/86243647/144940532-b494e216-4bb9-4032-a97b-cecd5fde2593.PNG)
 
-I look at this dataset as three puzzle parts that help us build the big picture of what is causing plant variability 
+I look at this dataset as three puzzle parts that help us build the big picture of what is causing plant variability.  
+
+For this project, three different landscapes were selected. Each landscape represents a different topography and soil conditions. Then, each landscape has three replicas that contain 24 rows, representing 10 different planting treatments. 
+![image](https://user-images.githubusercontent.com/86243647/144941013-21f55d68-0504-459d-b8d5-d394e251c98f.png)
 
 
+## Problem Statement
+Two main questions drive the analysis of the data. How is the performance of the plant affected by planting treatment? What drives plant to plant variability even when all the inputs (genetics, environment, and machinery settings) remain the same? Although these seem straightforward questions, many data processes need to happen before the data can be used. First, the datasets need to be joined. Then before comparing treatments or conditions, the data has to be normalized to account for spatial variability. In order to approach this task, I created a workflow that indicates the steps needed to answer these questions. 
+[Workflow.pdf](https://github.com/lizbethp/516X-Digital_Acre/files/7664293/Workflow.pdf)
 
 ## Welcome to GitHub Pages
 
