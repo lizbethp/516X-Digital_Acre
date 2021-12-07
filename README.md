@@ -40,15 +40,20 @@ For this project, I dedicated my time to creating a pipeline that will update ne
 ### FAIR Principles and Motivation
 I have performed that workflow using other tools such as Excel and Minitab, but I felt motivated to create a script because of several advantages. A simple one is that a scrip (if made correctly) keeps up with changes in data. This is really necessary for this project since data is still being generated. When analyzing the data in python, intermediate steps are saved and open the possibility of using these values for other analysis/ approaches. By saving this analysis and recording how they were produced, the approaches are being recorded, and if a different approach is chosen, the previous one will not be forgotten. Lastly, it facilitates the reproducibility of the analysis. This project will be repeated next year, and it is essential to generate the same data and analysis as this year. 
 
-## Code Step by Step
+The data of this project cannot be updated into GitHub due to NDA agreements. For now, this analysis cannot be reproducible by individuals outside my research group. The way I made my scripts facilitated our group analysis. When a document is updated, the pipeline will account for these changes.
+
+
+## Code 
 There are three scripts that work with one another. I developed the first script in ArcGIS Pro using spatial packages such as arcpy. This script does all the spatial joins.  Below is a diagram explaining the code and the code. The second script uses the output of the ArcGIS one and adds more data, and then normalizes it by plot and by row. The last one visualized the data. 
 ### ArcGIS (Spatial Join) Script 
 https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/ArcGIS_Joins.py
 
 
-### Data Normalization
+### Data Normalization and Visualization
 https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/Normalized%20Data.ipynb
 
+### Assignment 
+https://github.com/lizbethp/516X-Digital_Acre/blob/06abf38efeee583a374be3749434395c37b02a63/Digital_Acre_Assignment.ipynb
 
 ## Welcome to GitHub Pages
 
