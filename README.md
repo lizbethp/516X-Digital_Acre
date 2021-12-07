@@ -50,7 +50,8 @@ The data of this project cannot be updated into GitHub due to NDA agreements. Fo
 
 
 ## Code 
-There are three scripts that work with one another. I developed the first script in ArcGIS Pro using spatial packages such as arcpy. This script does all the spatial joins.  Below is a diagram explaining the code and the code. The second script uses the output of the ArcGIS one and adds more data, and then normalizes it by plot and by row. The last one visualized the data. 
+There are 2 scripts that work with one another. I developed the first script in ArcGIS Pro using spatial packages such as arcpy. This script does all the spatial joins. The second script uses the output of the ArcGIS one and adds more data, and then normalizes it by plot and by row. After it normalized the data it generetes graphs to visualize the reuslts. 
+
 ### ArcGIS (Spatial Join) Script 
 https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/ArcGIS_Joins.py
 
@@ -61,40 +62,7 @@ https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b
 ### Assignment 
 https://github.com/lizbethp/516X-Digital_Acre/blob/06abf38efeee583a374be3749434395c37b02a63/Digital_Acre_Assignment.ipynb
 
-## Welcome to GitHub Pages
+## Conclusion
+Although none of my research questions were answered, I consider this project a success. I was able to create the base of my research analysis and to generate intermediate steps in an automized way. In the class, I learned how to wrangle through data, summarize and visualize it, and I successfully applied these learnings to my research. This project has given me the advantage of having all my analysis in a version control environment and using updated files without even opening them. The side back of only using a script is that some of the explorations of the data can be hard to perform through python and might be faster in other platforms. 
 
-You can use the [editor on GitHub](https://github.com/lizbethp/516X-Digital_Acre/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lizbethp/516X-Digital_Acre/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
