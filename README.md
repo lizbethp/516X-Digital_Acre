@@ -1,4 +1,6 @@
-[Website URL] (https://lizbethp.github.io/516X-Digital_Acre/)
+[Website URL](https://lizbethp.github.io/516X-Digital_Acre/)
+https://lizbethp.github.io/516X-Digital_Acre/
+
 ## Introduction 
 If we treat agriculture as a system, we can think about inputs and outputs. 
 ![System](https://user-images.githubusercontent.com/86243647/144939640-b4072840-6061-48b5-9755-18b5b321523e.PNG)
@@ -54,14 +56,14 @@ The data of this project cannot be updated into GitHub due to NDA agreements. Fo
 There are 2 scripts that work with one another. I developed the first script in ArcGIS Pro using spatial packages such as arcpy. This script does all the spatial joins. The second script uses the output of the ArcGIS one and adds more data, and then normalizes it by plot and by row. After it normalized the data it generetes graphs to visualize the reuslts. 
 
 ### ArcGIS (Spatial Join) Script 
-https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/ArcGIS_Joins.py
+[ArcGIS Script](https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/ArcGIS_Joins.py)
 
 
 ### Data Normalization and Visualization
-https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/Normalized%20Data.ipynb
+[Data Normalization and Visualization Notebook](https://github.com/lizbethp/516X-Digital_Acre/blob/c9be245431c299c8919b9be1d3b2b5aad1676173/Normalized%20Data.ipynb)
 
 ### Assignment 
-https://github.com/lizbethp/516X-Digital_Acre/blob/06abf38efeee583a374be3749434395c37b02a63/Digital_Acre_Assignment.ipynb
+[Assignment Notebook](https://github.com/lizbethp/516X-Digital_Acre/blob/06abf38efeee583a374be3749434395c37b02a63/Digital_Acre_Assignment.ipynb)
 
 ## Conclusion
 Although none of my research questions were answered, I consider this project a success. I was able to create the base of my research analysis and to generate intermediate steps in an automized way. In the class, I learned how to wrangle through data, summarize and visualize it, and I successfully applied these learnings to my research. This project has given me the advantage of having all my analysis in a version control environment and using updated files without even opening them. The side back of only using a script is that some of the explorations of the data can be hard to perform through python and might be faster in other platforms. 
